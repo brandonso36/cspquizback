@@ -22,10 +22,10 @@ from projects.projects import app_projects # Blueprint directory import projects
 
 from flask import request, jsonify
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
-load_dotenv()
+#load_dotenv()
 aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
 aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 
